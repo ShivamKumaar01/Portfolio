@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  /* margin-left: 18px;
+  margin-right: 18px; */
+  /* background-color: yellow; */
+}
+
+.nav{
+  margin: 4px;
+  padding:4px;
+  background-color:#FFFFFF;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.nav_items{
+  display: flex;
+  justify-content: end;
+  list-style: none;
+ 
+}
+.list-items{
+  font-size: 20px;
+  line-height: 29px;
+}
+.nav li{
+  padding: 20px;
+}
+.hero{
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  /* background-color: yellow; */
+
+}
+.image{
+  height: 216px;
+  width: 216px;
+  margin-top: 210px;
+  border-radius: 100px;
+}
+.button {
+  background-color: #FF6464; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 20px;
+  margin-top: 64px;
+  line-height: 29px;
+  border-radius: 2px;
+}
+
+.heading{
+  height: 102px;
+  width:510px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  font-size: 44px;
+  color: #21243D;
+  margin-top: 210px ;
+  font-weight: bold;
+ 
+  
+  
+}
+
+.text{
+  height: 64px;
+  width: 501px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #21243D;
+  margin-top: 39px;
+  
+  
+}
+.recent-post{
+  background-color:#EDF7FA ;
+  margin-right: 78px;
+  height: 399px;
+  margin-top: 103px;
+  margin-left: 74px;
+
+  
+}
+.cards{
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  
+
+}
+
+
+.card_first,.card_second{
+  padding: 62px,508px 42px 74px;
+  height:295px;
+  width:418px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+}
+.heading_first,.heading_second{
+  height: 85px;
+  width:374px;
+  line-height: auto;
+  font-size: 26px;
+  margin-top: 24px;
+  margin-left: 23px;
+  font-weight: bold;
+  
+}
+
+.date{
+  height:34px;
+  width:374px;
+  font-weight: 18px;
+  display: flex;
+  justify-content: flex-start;
+  line-height: 26px;
+  margin-left: 23px;
+  gap: 25px;
+  
+}
+.para_one,.para_two{
+  width: 368px;
+  height: 117px;
+  line-height: 24px;
+ 
+  margin-left: 23px;
+  margin-top: 11px;
+ 
+ 
+}
+.top{
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+.recent{
+  /* margin-left:74px;  */
+  /* margin-right: 797px; */
+  line-height: 60px; 
+  height:60px;
+  width: 129px;
+  font-weight: 22px;
+  color: #21243D;
+  /* border: 1px solid black; */
+  
+}
+.view{
+  margin-left:519px ;
+  color:#00A8CC;
+  height:20px;
+  width: 208px;
+  line-height: 24px;
+  font-weight: 16px;
+  margin-top: 20px;
+  text-align: end;
+  /* border: 1px solid black; */
+ 
+}
+.txt{
+  height:60px;
+  width:152px;
+  line-height: 60px;
+  font-weight: 22px;
+  margin-left: 148px;
+  
+}
+
+/* .img{
+  height:180px;
+  width:246px;
+} */
+/* .heading{
+  height:44px;
+  width:305px;
+  border: 1px solid black;
+  line-height: 44px;
+  font-size: 30px;
+  color: #21243D;
+  font-weight: bold;
+  margin-left: 18px;
+} */
+
+.feature_one{
+  display: flex;
+  margin-left: 146px;
+}
+.img{
+  height:180px;
+  width:246px;
+  
+}
+.text1{
+  margin-left:18px;
+}
+.abc{
+  height:44px;
+  width:305px;
+  /* margin-left: 18px; */
+  line-height: 44px;
+  font-size: 30px;
+  font-weight: bold;
+  /* border: 1px solid black; */
+  color: #21243D;
+}
+.second{
+  display: flex;
+
+}
+.year{
+  height:60px;
+  width:42px;
+  line-height: 60px;
+  font-size: 18px;
+  /* background-color: black; */
+  /* color: white; */
+ /* border-radius: 50px; */
+ border: 1px solid black;
+
+}
+.dash{
+  height:34px;
+  width:374px;
+  line-height: 29px;
+  border: 1px solid black;
+  margin-top: 16px;
+
+}
+.desc{
+  height:93px;
+  width:594px;
+  line-height: 24px;
+  font-weight: 16px;
+
+}
+hr{
+  padding-top: 15px;
+}
+.heading_second{
+  height:44px;
+  width:305px;
+  line-height: 44px;
+  font-size: 30px;
+  font-weight: bold;
+  /* border: 1px solid black; */
+  color: #21243D;
+}
+
+
+
+
+
+
+
